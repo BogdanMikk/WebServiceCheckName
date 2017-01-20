@@ -39,8 +39,6 @@ namespace Terrasoft.Configuration{
         	int count = 0;
         	string val = "none";
         	Guid emp = Guid.Empty;
-        	Guid recordid = Guid.Empty;
-        	recordid = Id; //id записи
         	emp = UsrEmployeeId; //сотрудник
         	val = UsrName; //название
             	Select selectQuery  = new Select(userConnection)
