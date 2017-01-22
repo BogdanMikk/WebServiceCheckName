@@ -2,7 +2,7 @@ save: function(parameter) {
 	if (!parameter) {this.checkField()}
 	else {this.callParent(arguments)}
 	},
-	//Проверка на одинаковые названия
+	// Проверка на одинаковые названия
 	checkField: function(){
 
 		var Page = this;
